@@ -8,10 +8,10 @@ const pulse = keyframes`
   50% { transform: scale(1.02); }
 `;
 
-const shimmer = keyframes`
-  0% { background-position: -100% 0; }
-  100% { background-position: 200% 0; }
-`;
+// const shimmer = keyframes`
+//   0% { background-position: -100% 0; }
+//   100% { background-position: 200% 0; }
+// `;
 
 const Button = ({ 
   children, 
@@ -139,7 +139,6 @@ const StyledButton = styled.button`
         `;
     }
   }}
-  
   /* ===== VARIANT STYLES - LIGHT MODE ===== */
   ${props => {
     switch(props.$variant) {

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import styled, { keyframes, css } from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import Button from './Button';
 
 // ===== ANIMATIONS =====
@@ -14,10 +14,10 @@ const float = keyframes`
   50% { transform: translateY(-3px); }
 `;
 
-const pulseGlow = keyframes`
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 0.8; }
-`;
+// const pulseGlow = keyframes`
+//   0%, 100% { opacity: 0.3; }
+//   50% { opacity: 0.8; }
+// `;
 
 // Create context for theme
 const ThemeContext = React.createContext();
